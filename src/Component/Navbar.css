@@ -1,0 +1,26 @@
+.navbar{
+    background-color: black;
+    color: white;
+    padding:8px 5px 8px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Shop-name{
+    text-align:left;
+    color: white;
+}
+ #contactUs:hover{
+    color: rgba(255, 255, 255, 0.823);
+}
+.Shop-name:hover{
+    color: rgba(255, 255, 255, 0.823);
+}
+.main{
+    font-style: bold;
+    font-size:20px;
+}
+#contactUs{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

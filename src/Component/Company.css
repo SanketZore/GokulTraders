@@ -1,0 +1,130 @@
+
+table,td,tr,th{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.statement{
+    margin-left: auto;
+    margin-right: auto;
+}
+.date{
+    width: 100px;
+}
+
+#Extended-Data{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 607px) {
+    #Extended-Data{
+        width: 590px;
+    }
+    .info{
+        display: flex;
+    }
+}
+@media (max-width: 607px) and (min-width: 400px) {
+    #Extended-Data{
+        width: 410px;
+    }
+}
+@media (max-width:420px) {
+    #Extended-Data{
+        width: 370px;
+    }
+}
+@media (min-width: 870px) {
+    #Extended-Data{
+        width: 700px;
+    }
+    .info{
+        display: flex;
+    }
+}
+
+.info{
+    display: flex-box;
+    justify-content:space-evenly;
+}
+.forms{
+    background-color: rgb(102, 58, 5);
+    color: white;
+    /* width: 650px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.element{
+    display: flex;
+}
+
+.new-data{
+    /* width:300px; */
+    margin: 2px;
+    display: flex;
+    text-align: left;
+    justify-content:space-evenly;
+}
+input{
+    width: 180px;
+    border-radius: 5px;
+    padding:1px 0 1px 5px 
+}
+.space{
+    width: 88px;
+    text-align: left;
+}
+
+
+.leftalign{
+    text-decoration: none;
+    font-style: normal;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.buttons{
+    text-align: right;
+}
+
+.backArrow{
+    border-radius:5px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+.arrow{
+display: block;
+align-items: left;
+text-align:left;
+margin: 10px 30px;
+}
+
+@media  (max-width: 431px) {
+    #statement{
+        font-size:10px;
+        margin: 10%;
+    }
+    .compName{
+        font-size:14px;
+        font-weight:bold;
+    }
+    .compAdd{
+        font-size: 18px;
+        font-weight:bold;
+    }
+    .state{
+        font-size: 15px;
+        font-weight:bold;
+    }
+    .owner{
+        font-size: 18px;
+        font-weight:bold;
+    }
+    .merchant{
+        font-size: 15px;
+        font-weight:bold;
+    }
+}

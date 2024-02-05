@@ -1,0 +1,218 @@
+#addUser {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.addUser {
+    text-align: right;
+}
+
+.users {
+    color: white;
+    height: 100%;
+    display: flexbox;
+}
+
+.User-Item {
+    background-color: rgb(211, 223, 231);
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    padding: 3px;
+    text-align: left;
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+    padding: 3px 5px 3px 10px;
+}
+
+#inline {
+    display: inline-block;
+}
+
+.address {
+    display: block;
+    padding: 3px 5px 3px 10px;
+}
+
+.display {
+    font-weight: bold;
+}
+
+#Users {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.users-cart {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#new-company {
+    background-color: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid;
+    margin: 10px 35px 10px 35px;
+}
+
+@media (min-width: 607px) {
+    #new-company {
+        width: 570px;
+        margin: 10px 35px 10px 35px;
+    }
+
+    /* input[type="text"]{
+        padding: 1px 1px 0 5px;
+        border-radius: 5px;
+        width: 100px;
+    } */
+}
+
+@media (max-width: 607px) and (min-width: 400px) {
+    #new-company {
+        width: 500px;
+        margin: 10px 35px 10px 35px;
+    }
+
+    /* input[type="text"]{
+        padding: 1px 1px 0 5px;
+        border-radius: 5px;
+        width: 100px;
+    } */
+}
+
+@media (max-width: 515px) {
+    #new-company {
+        width: 370px;
+        margin: 10px 35px 10px 35px;
+    }
+
+    input[type="text"] {
+        width: 180px;
+    }
+
+    .space {
+        width: 40px;
+        color: white;
+        text-align: left;
+    }
+}
+
+
+#space {
+    color: white;
+    text-align: left;
+}
+
+#submit {
+    background-color: rgb(245, 245, 106);
+    padding: 3px 5px 3px 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+.company {
+    /* width:520px; */
+    margin: 2px;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+#backGround {
+    background-image: url("./images/coalField.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    background-color: rgba(0, 0, 0, 0.793);
+}
+
+input[type="text"] {
+    padding: 1px 1px 0 5px;
+    border-radius: 5px;
+    /* width: 500px; */
+}
+
+@media screen and (max-width:400px) {
+    form {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width:607px) {
+    .company-name {
+        display: block;
+    }
+
+    .company {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 820px) {
+    .User-Item {
+        width: 700px;
+        /* align-items: left; */
+    }
+}
+
+.User-Item:hover {
+    background-color: rgb(243, 235, 219);
+}
+
+
+
+/* @media screen and (min-width:630px) {
+    #new-company{
+        width:620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
+#new-company {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin: 10px;
+}
+.images{
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    margin:auto
+}
+
+@media (min-width: 950px) {
+    .coalDisplay {
+        display: flex;
+    }
+}
+ 
+@media (max-width:950px) {
+    img{
+        display:none;
+    }
+    .coalDisplay{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+@media (max-width:1180px){
+    .hide{
+        display: none;
+    }
+}
