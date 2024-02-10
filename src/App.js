@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/GokulTraders">
       <Navbar />
         <Routes>
           <Route path="/" initial element={<FrontPage />}></Route>
