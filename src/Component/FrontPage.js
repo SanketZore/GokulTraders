@@ -67,7 +67,7 @@ function FrontPage() {
   // };
 
   return (
-    <div id="backGround">
+    <div>
       <div className="addUser">
         <button id="addUser" onClick={hide}>
           Add Company
